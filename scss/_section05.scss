@@ -1,0 +1,67 @@
+#section05 {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background: #F7F7F0;
+
+  .container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+
+    .frame {
+      width: 100%;
+      margin: 20%;
+
+      @media (max-width: 768px) {
+        width: 100%;
+        margin: 2%;
+      }
+
+
+      #typical-tab {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        button {
+          border: none;
+          width: 200px;
+        }
+      }
+
+      .col {
+        width: 30%;
+        margin: 1%;
+        text-align: center;
+        display: inline-block;
+        overflow: hidden;
+
+        @media (max-width: 768px) {
+          width: 100%;
+          margin: 2%;
+        }
+
+        img {
+          width: 30%;
+          height: 30%;
+          transform: scale(1, 1);
+          transition: all 0.5s ease-out;
+
+          &:hover {
+            transform: scale(1.1, 1.1);
+          }
+        }
+
+        p {
+          margin-top: 20px;
+        }
+      }
+    }
+
+  }
+
+
+}

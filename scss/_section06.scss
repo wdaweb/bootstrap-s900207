@@ -1,0 +1,21 @@
+#section06 {
+  width: 100%;
+  background: #333;
+  justify-content: center;
+  align-items: center;
+
+  .container-fluid {
+    width: 100%;
+    display: flex;
+    text-align: center;
+
+    .col {
+      width: 50%;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+}
